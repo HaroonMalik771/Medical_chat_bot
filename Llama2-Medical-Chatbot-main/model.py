@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
-# from langchain_community.output_parsers.rail_parser import GuardrailsOutputParser
-# from langchain_community.callbacks.tracers.wandb import WandbTracer
+from langchain_community.output_parsers.rail_parser import GuardrailsOutputParser
+from langchain_community.callbacks.tracers.wandb import WandbTracer
 from langchain.prompts import PromptTemplate
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
